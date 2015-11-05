@@ -6,6 +6,9 @@
 
 
 //preparing the temp logfile
+
 File file = File.createTempFile("transpect-rng-", ".txt");
+
 FileWriter writer = new FileWriter(file);
+
 System.setProperty("LtxValidateTempFile", file.getAbsolutePath());
