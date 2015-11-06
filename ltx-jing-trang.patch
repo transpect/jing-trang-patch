@@ -1,5 +1,5 @@
-diff -rupN jing-trang-read-only/mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java workspace/JingTrang/trunk/mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java
---- jing-trang-read-only/mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java	2014-06-03 11:14:55.304220495 +0200
+diff -rupN mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java workspace/JingTrang/trunk/mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java
+--- mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java	2014-06-03 11:14:55.304220495 +0200
 +++ workspace/JingTrang/trunk/mod/pattern/src/main/com/thaiopensource/relaxng/sax/PatternValidator.java	2014-06-03 11:26:05.342892107 +0200
 @@ -5,6 +5,8 @@ import com.thaiopensource.relaxng.patter
  import com.thaiopensource.relaxng.pattern.PatternMatcher;
@@ -178,8 +178,8 @@ diff -rupN jing-trang-read-only/mod/pattern/src/main/com/thaiopensource/relaxng/
    }
  }
 
-diff -rupN jing-trang-read-only/mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java workspace/JingTrang/trunk/mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java
---- jing-trang-read-only/mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java	1970-01-01 01:00:00.000000000 +0100
+diff -rupN mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java workspace/JingTrang/trunk/mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java
+--- mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java	1970-01-01 01:00:00.000000000 +0100
 +++ workspace/JingTrang/trunk/mod/util/src/main/com/thaiopensource/xml/sax/MyElement.java	2013-05-13 09:57:00.000000000 +0200
 @@ -0,0 +1,58 @@
 +package com.thaiopensource.xml.sax;
