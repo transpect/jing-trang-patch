@@ -9,4 +9,10 @@
 `patch -p2 < ltx-jing-trang.patch`
 * compile jing-trang
 `./ant`
-
+* compile Example
+`javac -cp /path/to/trunk/build/jing.jar ValidationExample.java`
+* set CLASSPATH (bash)
+`export CLASSPATH=$CLASSPATH:/path/to/jing.jar`
+* run
+`java ValidationExample`
+* result will be located under /tmp/transpect-rng-(some numbers).txt
