@@ -1,14 +1,12 @@
 # jing-trang-patch
- patch for:
- http://jing-trang.googlecode.com/svn
- Revision 2368
 
+## Howto
 
+* checkout jing-trang
+`svn co --revision 2368 http://jing-trang.googlecode.com/svn`
+* copy patch to directory
+* apply patch
+`patch -p2 < ltx-jing-trang.patch`
+* compile jing-trang
+`./ant`
 
-//preparing the temp logfile
-
-File file = File.createTempFile("transpect-rng-", ".txt");
-
-FileWriter writer = new FileWriter(file);
-
-System.setProperty("LtxValidateTempFile", file.getAbsolutePath());
